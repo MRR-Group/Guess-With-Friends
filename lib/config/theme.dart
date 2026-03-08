@@ -45,6 +45,7 @@ ThemeData theme = ThemeData(
     iconTheme: IconThemeData(
       color: textColor,
     ),
+    foregroundColor: textColor,
   ),
   cardTheme: CardThemeData(
     margin: EdgeInsets.zero,
