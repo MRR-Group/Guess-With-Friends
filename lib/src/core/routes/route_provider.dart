@@ -22,7 +22,7 @@ final routerProvider = Provider<GoRouter>((ref) {
         routes: [
           GoRoute(
             path: homeRoute,
-            builder: (context, state) => SelectThemePage(),
+            builder: (context, state) => HomePage(),
           ),
           GoRoute(
             path: settingsRoute,
